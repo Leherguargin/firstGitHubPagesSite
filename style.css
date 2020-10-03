@@ -1,0 +1,113 @@
+@media (max-width: 600px) {
+    body {
+        font-family: "Open Sans", sans-serif;
+    }
+    .redText {
+        color: red;
+    }
+    div>h3 {
+        color: blue;
+    }
+    .items {
+        margin: 10px;
+    }
+    .productDescription {
+        display: inline-block;
+        width: 220px;
+    }
+    .shift {
+        float: right;
+        text-decoration: none;
+    }
+    ol>li>a {
+        display: inline;
+    }
+    .articles {
+        border: 1px #eee solid;
+        margin: 10px;
+        display: inline-block;
+    }
+    nav {
+        position: relative;
+        display: block;
+        height: 60px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-family: "Open Sans", sans-serif;
+    }
+    .redText {
+        color: red;
+    }
+    div>h3 {
+        color: blue;
+    }
+    .items {
+        margin: 10px;
+    }
+    .productDescription {
+        display: inline-block;
+        width: 220px;
+    }
+    .shift {
+        float: right;
+        text-decoration: none;
+    }
+    ol>li>a {
+        display: inline;
+    }
+    .elements {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .articles {
+        border: 1px #eee solid;
+        margin: 10px;
+        display: inline-block;
+    }
+    .container {
+        width: 33.33%;
+    }
+    .float {
+        float: right;
+        display: "inline-block";
+    }
+    .clear {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .clear::after {
+        content: "";
+        clear: both;
+    }
+    .line {
+        display: inline-block;
+        text-decoration: none;
+    }
+    .center {
+        text-align: center;
+        margin: auto;
+    }
+    .margins {
+        margin: 180px 0;
+    }
+    .mar {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    section {
+        margin: auto;
+        width: 60%;
+    }
+    nav {
+        position: relative;
+        display: block;
+        height: 60px;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
